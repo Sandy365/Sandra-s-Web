@@ -1,7 +1,7 @@
 body
 {
 	
-	background-image: url("ZenBG.png");
+	background-image: url("fondocss.jpg");
 	background-repeat: no-refont-family: serif; peat;
 	background-size: 100%;
 	font-family:"helvetica",arial;
@@ -12,17 +12,21 @@ body
 	text-align: center;
 }
 h1{
-	font-family: serif; 
+	font-family: 'Homemade Apple', cursive;
+    text-shadow: #aaa 3px 3px 3px; 
 	font-size: 300%;
-	color:#FFFFFF;
+	color:#FF3333;
 }
 h2{
-	color:#FF3333	;
+	font-family: 'Oleo Script', cursive;
+	color:#FFFFFF	;
 	font-size:200%;
-	font-family: 'Shadows Into Light';
+	text-shadow: #aaa 2px 2px 2px; 
+	
 
 }
 h3{
+	font-family: 'Alegreya', serif;
 	color:#FFFFFF;
 	font-size:180%;
 	}
@@ -34,8 +38,20 @@ nav ul li
 	color: #003333;
 	cursor: pointer;
 	text-align: center;
+	padding: 10px 16px;
+	text-shadow: 1px 1px 1px #aaa;
+	transition :all .5s linear;
+	
 }
-#textoPr
+nav li :hover
+{
+	background-color: rgba(0,0,0,0.5);
+	border-radius: 20px;
+	padding: 20px; 
+	box-shadow: 0px 0px 20px rgba(0,0,0,0.5);
+	
+}
+#textoPr		
 {
 width: 600px;
 height: 400px;
@@ -54,7 +70,7 @@ background: #ff3333;
 a{
 	color: #FFFFFF;
 	font-weight: bold;
-	font-family: cursive ;
+	font-family: serif ;
 	font-size: 120%;
 }
 
